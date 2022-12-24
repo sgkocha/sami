@@ -152,6 +152,124 @@ body{
     font-weight: 400;
     line-height: 149.02%;
     text-transform: lowercase;
-
-
+}
+.sami-skills{
+    padding-top: 79px;
+    padding-bottom: 159px;
+    background-color: #525252;;
+}
+.sami-skills-box, .sami-skill-info{
+    display: flex;
+}
+.sami-skills-box{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    row-gap: 54px;
+}
+.sami-skill-info{
+    align-items: baseline;
+    gap: 393px;
+}
+.sami-skill-title{
+    font-size: 29px;
+    line-height: 147.76%;
+    color: #FFFFFF;
+}
+.sami-skill-percent{
+    font-size: 16px;
+    line-height: 147.76%;
+    color: #FFFFFF
+}
+.sami-skill-visualization{
+    width: 610px;
+    margin-top: 6px;
+    background: #413E3E;
+    border: 1px solid  #413E3E;
+    border-radius: 10px;
+}
+.sami-skill-visualization div{
+    width: 80%;
+    height: 20px;
+    background: #EBCC2A;
+    border: 1px solid  #EBCC2A;
+    border-radius: 10px;
+}
+.sami-skill:nth-child(2) .sami-skill-visualization div{
+    width: 20%;
+}
+.sami-skill:nth-child(2) .sami-skill-info{
+    gap: 63px;
+}
+.sami-skill:nth-child(3) .sami-skill-visualization div{
+    width: 90%;
+}
+.sami-skill:nth-child(3) .sami-skill-info{
+    gap: 441px;
+}
+.sami-skill:nth-child(4) .sami-skill-visualization div{
+    width: 80%;
+}
+.sami-skill:nth-child(4) .sami-skill-info{
+    gap: 393px;
+}
+.sami-skill:nth-child(5) .sami-skill-visualization div{
+    width: 50%;
+}
+.sami-skill:nth-child(5) .sami-skill-info{
+    gap: 221px;
+}
+.sami-skill:nth-child(6) .sami-skill-visualization div{
+    width: 20%;
+}
+.sami-skill:nth-child(6) .sami-skill-info{
+    gap: 45px;
+}
+.sami-skill:nth-child(7) .sami-skill-visualization div{
+    width: 80%;
+}
+.sami-skill:nth-child(7) .sami-skill-info{
+    gap: 326px;
+}
+.sami-skill:nth-child(8) .sami-skill-visualization div{
+    width: 70%;
+}
+.sami-skill:nth-child(8) .sami-skill-info{
+    gap: 369px;
+}
+.sami-portfolio{
+    padding-top: 92px;
+    padding-bottom: 146px;
+    background: #413E3E;
+}
+.sami-portfolio-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 26px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.portfolio-item{
+    width: 400px;
+    background: #595959;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.portfolio-item-title{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.portfolio-item-category{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #EBCC2A;
 }
