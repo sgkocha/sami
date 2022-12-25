@@ -1,28 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 1440px;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
 }
-.header{
+
+.header {
     background: url("./images/footer-bg.png") no-repeat;
     padding-top: 46px;
     padding-bottom: 349px;
 }
-.header-bar{
+
+.header-bar {
     display: flex;
     justify-content: space-around;
-  
+
 }
-.nav-list{
+
+.nav-list {
     list-style-type: none;
     display: flex;
     gap: 32px
 }
+
 .nav-list-item a {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
@@ -32,30 +37,36 @@ body{
     text-decoration: none;
     color: #FFFFFF;
 }
-.nav-list-item a:hover{
-  border-bottom: 6px solid #EBCC2A;
+
+.nav-list-item a:hover {
+    border-bottom: 6px solid #EBCC2A;
 }
-.header-info{
+
+.header-info {
     margin-top: 357px;
     margin-left: 138px;
 }
-.header-about{
+
+.header-about {
     font-weight: 400;
     font-size: 80px;
     line-height: 147.76%;
     color: #FFFFFF;
 }
-.header-title{
+
+.header-title {
     font-weight: 900;
     font-size: 80px;
     line-height: 147.76%;
     color: #EBCC2A;
 }
-.sami-about{
+
+.sami-about {
     background-color: rgba(0, 0, 0, 0.68);
     padding-top: 37px;
     padding-bottom: 97px;
 }
+
 .title {
     margin-left: 617px;
     margin-bottom: 104px;
@@ -67,23 +78,27 @@ body{
     color: #EBCC2A;
     border-bottom: 6px solid #EBCC2A;
 }
-.sami-about-content{
+
+.sami-about-content {
     margin-left: 138px;
     display: flex;
     gap: 22px;
 }
-.sami-about-info-title{
+
+.sami-about-info-title {
     font-size: 40px;
     line-height: 147.76%;
     color: #FFFFFF;
 }
+
 .sami-about-info-subtitle {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 32px;
     color: #FFFFFF;
 }
-.sami-about-content p{
+
+.sami-about-content p {
     width: 717px;
     margin-bottom: 20px;
     font-weight: 400;
@@ -91,12 +106,15 @@ body{
     line-height: 147.76%;
     color: #FFFFFF;
 }
-.sami-about-actions{
+
+.sami-about-actions {
     margin-top: 40px;
     display: flex;
     gap: 62px;
 }
-.download-btn, .hire-btn{
+
+.download-btn,
+.hire-btn {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -108,27 +126,32 @@ body{
     color: #FFFFFF;
     cursor: pointer;
 }
-.download-btn{
+
+.download-btn {
     width: 287px;
     background-color: #EBCC2A;
-}    
-.hire-btn{
+}
+
+.hire-btn {
     width: 230px;
     background-color: transparent;
 }
-.sami-services{
+
+.sami-services {
     background: #413E3E;
     padding-top: 37px;
     padding-bottom: 97px;
     background-color: #413E3E;
 }
-.services-box{
+
+.services-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     row-gap: 28px;
 }
-.service{
+
+.service {
     width: 400px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -139,111 +162,139 @@ body{
     color: #FFFFFF;
 
 }
-.service-title{
+
+.service-title {
     margin-top: 33.53px;
     margin-bottom: 33.53px;
     font-weight: 900;
     line-height: 30px;
     text-transform: uppercase;
 }
-.service-desc{
+
+.service-desc {
     width: 342px;
-    margin: 0 auto; 
+    margin: 0 auto;
     font-weight: 400;
     line-height: 149.02%;
     text-transform: lowercase;
 }
-.sami-skills{
+
+.sami-skills {
     padding-top: 79px;
     padding-bottom: 159px;
-    background-color: #525252;;
+    background-color: #525252;
+    ;
 }
-.sami-skills-box, .sami-skill-info{
+
+.sami-skills-box,
+.sami-skill-info {
     display: flex;
 }
-.sami-skills-box{
+
+.sami-skills-box {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-left: 100px;
     padding-right: 100px;
     row-gap: 54px;
 }
-.sami-skill-info{
+
+.sami-skill-info {
     align-items: baseline;
     gap: 393px;
 }
-.sami-skill-title{
+
+.sami-skill-title {
     font-size: 29px;
     line-height: 147.76%;
     color: #FFFFFF;
 }
-.sami-skill-percent{
+
+.sami-skill-percent {
     font-size: 16px;
     line-height: 147.76%;
     color: #FFFFFF
 }
-.sami-skill-visualization{
+
+.sami-skill-visualization {
     width: 610px;
     margin-top: 6px;
     background: #413E3E;
-    border: 1px solid  #413E3E;
+    border: 1px solid #413E3E;
     border-radius: 10px;
 }
-.sami-skill-visualization div{
+
+.sami-skill-visualization div {
     width: 80%;
     height: 20px;
     background: #EBCC2A;
-    border: 1px solid  #EBCC2A;
+    border: 1px solid #EBCC2A;
     border-radius: 10px;
 }
-.sami-skill:nth-child(2) .sami-skill-visualization div{
+
+.sami-skill:nth-child(2) .sami-skill-visualization div {
     width: 20%;
 }
-.sami-skill:nth-child(2) .sami-skill-info{
+
+.sami-skill:nth-child(2) .sami-skill-info {
     gap: 63px;
 }
-.sami-skill:nth-child(3) .sami-skill-visualization div{
+
+.sami-skill:nth-child(3) .sami-skill-visualization div {
     width: 90%;
 }
-.sami-skill:nth-child(3) .sami-skill-info{
+
+.sami-skill:nth-child(3) .sami-skill-info {
     gap: 441px;
 }
-.sami-skill:nth-child(4) .sami-skill-visualization div{
+
+.sami-skill:nth-child(4) .sami-skill-visualization div {
     width: 80%;
 }
-.sami-skill:nth-child(4) .sami-skill-info{
+
+.sami-skill:nth-child(4) .sami-skill-info {
     gap: 393px;
 }
-.sami-skill:nth-child(5) .sami-skill-visualization div{
+
+.sami-skill:nth-child(5) .sami-skill-visualization div {
     width: 50%;
 }
-.sami-skill:nth-child(5) .sami-skill-info{
+
+.sami-skill:nth-child(5) .sami-skill-info {
     gap: 221px;
 }
-.sami-skill:nth-child(6) .sami-skill-visualization div{
+
+.sami-skill:nth-child(6) .sami-skill-visualization div {
     width: 20%;
 }
-.sami-skill:nth-child(6) .sami-skill-info{
+
+.sami-skill:nth-child(6) .sami-skill-info {
     gap: 45px;
 }
-.sami-skill:nth-child(7) .sami-skill-visualization div{
+
+.sami-skill:nth-child(7) .sami-skill-visualization div {
     width: 80%;
 }
-.sami-skill:nth-child(7) .sami-skill-info{
+
+.sami-skill:nth-child(7) .sami-skill-info {
     gap: 326px;
 }
-.sami-skill:nth-child(8) .sami-skill-visualization div{
+
+.sami-skill:nth-child(8) .sami-skill-visualization div {
     width: 70%;
 }
-.sami-skill:nth-child(8) .sami-skill-info{
+
+.sami-skill:nth-child(8) .sami-skill-info {
     gap: 369px;
 }
-.sami-portfolio{
+
+.sami-portfolio {
     padding-top: 92px;
     padding-bottom: 146px;
     background: #413E3E;
 }
-.sami-portfolio-box{
+
+.sami-portfolio-box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -251,7 +302,8 @@ body{
     padding-left: 100px;
     padding-right: 100px;
 }
-.portfolio-item{
+
+.portfolio-item {
     width: 400px;
     background: #595959;
     padding-top: 52px;
@@ -259,17 +311,218 @@ body{
     padding-left: 23px;
     padding-right: 23px;
 }
-.portfolio-item-title{
+
+.portfolio-item-title {
     margin-bottom: 20px;
     font-weight: 900;
     font-size: 24px;
     text-transform: capitalize;
     color: #FFFFFF;
 }
-.portfolio-item-category{
+
+.portfolio-item-category {
     margin-bottom: 20px;
     font-weight: 900;
     font-size: 24px;
     text-transform: capitalize;
     color: #EBCC2A;
+}
+
+.sami-team {
+    padding-top: 120px;
+    padding-bottom: 180px;
+    background: #525252;
+}
+
+.sami-team-box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.team-item {
+    width: 401px;
+    padding: 24px 15px 26px 13px;
+    background-color: #413E3E;
+}
+
+.team-item-name {
+    margin-top: 36px;
+    font-size: 36px;
+    line-height: 28.26%;
+    color: #FFFFFF;
+}
+
+.team-item-spec {
+    margin-top: 34px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28.26%;
+    color: #EBCC2A;
+}
+
+.sami-blog {
+    padding-top: 92px;
+    padding-bottom: 26px;
+    background: #413E3E;
+}
+
+.sami-blog-box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 98px;
+    padding-right: 95px;
+}
+
+.blog-item {
+    width: 401px;
+    padding-top: 24px;
+    padding-left: 13px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    background: #525252;
+}
+
+.blog-item-date {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #EBCC2A
+}
+
+.blog-item-title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28.26%;
+    color: #FFFFFF;
+}
+
+.blog-item-desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 378px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.blog-item-btn {
+    width: 189px;
+    padding: 10px 0;
+    background: #EBCC2A;
+    border: 1px solid #EBCC2A;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 147.76%;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.blog-item-btn:hover {
+    color: blue;
+}
+
+.sami-contact {
+    padding-top: 95px;
+    padding-bottom: 87px;
+    background: #525252;
+}
+
+.contact-form {
+    width: 743px;
+    margin: 0 auto;
+}
+
+.contact-form input {
+    width: 740px;
+    display: block;
+    margin-top: 54px;
+    padding-left: 26px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    background: #413E3E;
+    border: 1px solid #413E3E;
+    outline: none;
+    font-size: 36px;
+    line-height: 147.76%;
+    color: #FFFFFF;
+
+}
+
+.contact-form input::placeholder {
+    font-size: 36px;
+    line-height: 147.76%;
+    color: #FFFFFF;
+}
+
+.contact-form textarea {
+    width: 740px;
+    height: 202px;
+    margin-top: 54px;
+    padding-top: 31px;
+    padding-left: 24px;
+    background: #413E3E;
+    border: 1px solid #413E3E;
+    outline: none;
+    font-size: 36px;
+    line-height: 147.76%;
+    color: #FFFFFF;
+
+}
+
+.contact-form button {
+    display: block;
+    width: 292px;
+    margin: 54px auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: transparent;
+    border: 1px solid #EBCC2A;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 147.76%;
+    color: #EBCC2A;
+    cursor: pointer;
+}
+footer{
+    padding-top: 152px;
+    padding-bottom: 67px;
+    background: #413E3E;
+}
+.footer-contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 205px;
+    padding-right: 231px;
+}
+.contact-item{
+    width: 168px;
+    text-align: center;
+}
+.contact-item-title{
+    margin-top: 19px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 147.76%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.contact-item-desc{
+    margin-top: 19px;
+    font-size: 24px;
+    line-height: 147.76%;
+    color: #FFFFFF;
+}
+.footer-social{
+    width: 255px;
+    margin: 152px auto;
+}
+.footer-social a {
+    margin-right: 15px;
 }
